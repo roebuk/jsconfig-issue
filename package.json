@@ -1,0 +1,26 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check-types-js": "tsc -p jsconfig.json",
+    "check-types-ts": "tsc -p tsconfig.json",
+    "start": "parcel index.html",
+    "lint": "eslint ./src/**",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristian Roebuck <k@roeb.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-plugin-jsdoc": "^31.6.1",
+    "eslint-plugin-react": "^7.22.0",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "4.0"
+  }
+}
